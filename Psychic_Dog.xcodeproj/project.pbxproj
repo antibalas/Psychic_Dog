@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB14F30B1B475DDF001B5AC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB14F30A1B475DDF001B5AC7 /* main.m */; };
+		FB14F30E1B475DDF001B5AC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB14F30D1B475DDF001B5AC7 /* AppDelegate.m */; };
+		FB14F3111B475DDF001B5AC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB14F3101B475DDF001B5AC7 /* ViewController.m */; };
+		FB14F3141B475DDF001B5AC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB14F3121B475DDF001B5AC7 /* Main.storyboard */; };
+		FB14F3161B475DDF001B5AC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB14F3151B475DDF001B5AC7 /* Images.xcassets */; };
+		FB14F3191B475DDF001B5AC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB14F3171B475DDF001B5AC7 /* LaunchScreen.xib */; };
+		FB14F3251B475DDF001B5AC7 /* Psychic_DogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB14F3241B475DDF001B5AC7 /* Psychic_DogTests.m */; };
+		FB14F3371B476D76001B5AC7 /* PhraseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB14F3361B476D76001B5AC7 /* PhraseViewController.m */; };
+		FB14F3391B476DB0001B5AC7 /* PhraseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB14F3381B476DB0001B5AC7 /* PhraseViewController.xib */; };
+		FB14F33C1B477718001B5AC7 /* PhraseLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = FB14F33B1B477718001B5AC7 /* PhraseLogic.m */; };
+		FB14F3411B4787CE001B5AC7 /* psychic_dog.png in Resources */ = {isa = PBXBuildFile; fileRef = FB14F33F1B4787CE001B5AC7 /* psychic_dog.png */; };
+		FB14F3421B4787CE001B5AC7 /* raining_dogs.png in Resources */ = {isa = PBXBuildFile; fileRef = FB14F3401B4787CE001B5AC7 /* raining_dogs.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB14F31F1B475DDF001B5AC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB14F2FD1B475DDF001B5AC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB14F3041B475DDF001B5AC7;
+			remoteInfo = Psychic_Dog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB14F3051B475DDF001B5AC7 /* Psychic_Dog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psychic_Dog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB14F3091B475DDF001B5AC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB14F30A1B475DDF001B5AC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB14F30C1B475DDF001B5AC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB14F30D1B475DDF001B5AC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB14F30F1B475DDF001B5AC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB14F3101B475DDF001B5AC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB14F3131B475DDF001B5AC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB14F3151B475DDF001B5AC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB14F3181B475DDF001B5AC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FB14F31E1B475DDF001B5AC7 /* Psychic_DogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Psychic_DogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB14F3231B475DDF001B5AC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB14F3241B475DDF001B5AC7 /* Psychic_DogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Psychic_DogTests.m; sourceTree = "<group>"; };
+		FB14F3351B476D76001B5AC7 /* PhraseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhraseViewController.h; sourceTree = "<group>"; };
+		FB14F3361B476D76001B5AC7 /* PhraseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhraseViewController.m; sourceTree = "<group>"; };
+		FB14F3381B476DB0001B5AC7 /* PhraseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PhraseViewController.xib; path = ../PhraseViewController.xib; sourceTree = "<group>"; };
+		FB14F33A1B477718001B5AC7 /* PhraseLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhraseLogic.h; path = ../PhraseLogic.h; sourceTree = "<group>"; };
+		FB14F33B1B477718001B5AC7 /* PhraseLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhraseLogic.m; path = ../PhraseLogic.m; sourceTree = "<group>"; };
+		FB14F33F1B4787CE001B5AC7 /* psychic_dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psychic_dog.png; sourceTree = SOURCE_ROOT; };
+		FB14F3401B4787CE001B5AC7 /* raining_dogs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raining_dogs.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB14F3021B475DDF001B5AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB14F31B1B475DDF001B5AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB14F2FC1B475DDF001B5AC7 = {
+			isa = PBXGroup;
+			children = (
+				FB14F3071B475DDF001B5AC7 /* Psychic_Dog */,
+				FB14F3211B475DDF001B5AC7 /* Psychic_DogTests */,
+				FB14F3061B475DDF001B5AC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB14F3061B475DDF001B5AC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB14F3051B475DDF001B5AC7 /* Psychic_Dog.app */,
+				FB14F31E1B475DDF001B5AC7 /* Psychic_DogTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB14F3071B475DDF001B5AC7 /* Psychic_Dog */ = {
+			isa = PBXGroup;
+			children = (
+				FB14F30C1B475DDF001B5AC7 /* AppDelegate.h */,
+				FB14F30D1B475DDF001B5AC7 /* AppDelegate.m */,
+				FB14F30F1B475DDF001B5AC7 /* ViewController.h */,
+				FB14F3101B475DDF001B5AC7 /* ViewController.m */,
+				FB14F3381B476DB0001B5AC7 /* PhraseViewController.xib */,
+				FB14F3351B476D76001B5AC7 /* PhraseViewController.h */,
+				FB14F3361B476D76001B5AC7 /* PhraseViewController.m */,
+				FB14F3121B475DDF001B5AC7 /* Main.storyboard */,
+				FB14F33F1B4787CE001B5AC7 /* psychic_dog.png */,
+				FB14F3401B4787CE001B5AC7 /* raining_dogs.png */,
+				FB14F3151B475DDF001B5AC7 /* Images.xcassets */,
+				FB14F3171B475DDF001B5AC7 /* LaunchScreen.xib */,
+				FB14F33A1B477718001B5AC7 /* PhraseLogic.h */,
+				FB14F33B1B477718001B5AC7 /* PhraseLogic.m */,
+				FB14F3081B475DDF001B5AC7 /* Supporting Files */,
+			);
+			path = Psychic_Dog;
+			sourceTree = "<group>";
+		};
+		FB14F3081B475DDF001B5AC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB14F3091B475DDF001B5AC7 /* Info.plist */,
+				FB14F30A1B475DDF001B5AC7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB14F3211B475DDF001B5AC7 /* Psychic_DogTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB14F3241B475DDF001B5AC7 /* Psychic_DogTests.m */,
+				FB14F3221B475DDF001B5AC7 /* Supporting Files */,
+			);
+			path = Psychic_DogTests;
+			sourceTree = "<group>";
+		};
+		FB14F3221B475DDF001B5AC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB14F3231B475DDF001B5AC7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB14F3041B475DDF001B5AC7 /* Psychic_Dog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB14F3281B475DDF001B5AC7 /* Build configuration list for PBXNativeTarget "Psychic_Dog" */;
+			buildPhases = (
+				FB14F3011B475DDF001B5AC7 /* Sources */,
+				FB14F3021B475DDF001B5AC7 /* Frameworks */,
+				FB14F3031B475DDF001B5AC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Psychic_Dog;
+			productName = Psychic_Dog;
+			productReference = FB14F3051B475DDF001B5AC7 /* Psychic_Dog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB14F31D1B475DDF001B5AC7 /* Psychic_DogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB14F32B1B475DDF001B5AC7 /* Build configuration list for PBXNativeTarget "Psychic_DogTests" */;
+			buildPhases = (
+				FB14F31A1B475DDF001B5AC7 /* Sources */,
+				FB14F31B1B475DDF001B5AC7 /* Frameworks */,
+				FB14F31C1B475DDF001B5AC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB14F3201B475DDF001B5AC7 /* PBXTargetDependency */,
+			);
+			name = Psychic_DogTests;
+			productName = Psychic_DogTests;
+			productReference = FB14F31E1B475DDF001B5AC7 /* Psychic_DogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB14F2FD1B475DDF001B5AC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = " ";
+				TargetAttributes = {
+					FB14F3041B475DDF001B5AC7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FB14F31D1B475DDF001B5AC7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FB14F3041B475DDF001B5AC7;
+					};
+				};
+			};
+			buildConfigurationList = FB14F3001B475DDF001B5AC7 /* Build configuration list for PBXProject "Psychic_Dog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB14F2FC1B475DDF001B5AC7;
+			productRefGroup = FB14F3061B475DDF001B5AC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB14F3041B475DDF001B5AC7 /* Psychic_Dog */,
+				FB14F31D1B475DDF001B5AC7 /* Psychic_DogTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB14F3031B475DDF001B5AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB14F3141B475DDF001B5AC7 /* Main.storyboard in Resources */,
+				FB14F3191B475DDF001B5AC7 /* LaunchScreen.xib in Resources */,
+				FB14F3411B4787CE001B5AC7 /* psychic_dog.png in Resources */,
+				FB14F3421B4787CE001B5AC7 /* raining_dogs.png in Resources */,
+				FB14F3391B476DB0001B5AC7 /* PhraseViewController.xib in Resources */,
+				FB14F3161B475DDF001B5AC7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB14F31C1B475DDF001B5AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB14F3011B475DDF001B5AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB14F3111B475DDF001B5AC7 /* ViewController.m in Sources */,
+				FB14F33C1B477718001B5AC7 /* PhraseLogic.m in Sources */,
+				FB14F30E1B475DDF001B5AC7 /* AppDelegate.m in Sources */,
+				FB14F30B1B475DDF001B5AC7 /* main.m in Sources */,
+				FB14F3371B476D76001B5AC7 /* PhraseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB14F31A1B475DDF001B5AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB14F3251B475DDF001B5AC7 /* Psychic_DogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB14F3201B475DDF001B5AC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB14F3041B475DDF001B5AC7 /* Psychic_Dog */;
+			targetProxy = FB14F31F1B475DDF001B5AC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB14F3121B475DDF001B5AC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB14F3131B475DDF001B5AC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB14F3171B475DDF001B5AC7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB14F3181B475DDF001B5AC7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB14F3261B475DDF001B5AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB14F3271B475DDF001B5AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB14F3291B475DDF001B5AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Psychic_Dog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB14F32A1B475DDF001B5AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Psychic_Dog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB14F32C1B475DDF001B5AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Psychic_DogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Psychic_Dog.app/Psychic_Dog";
+			};
+			name = Debug;
+		};
+		FB14F32D1B475DDF001B5AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Psychic_DogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Psychic_Dog.app/Psychic_Dog";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB14F3001B475DDF001B5AC7 /* Build configuration list for PBXProject "Psychic_Dog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB14F3261B475DDF001B5AC7 /* Debug */,
+				FB14F3271B475DDF001B5AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB14F3281B475DDF001B5AC7 /* Build configuration list for PBXNativeTarget "Psychic_Dog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB14F3291B475DDF001B5AC7 /* Debug */,
+				FB14F32A1B475DDF001B5AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB14F32B1B475DDF001B5AC7 /* Build configuration list for PBXNativeTarget "Psychic_DogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB14F32C1B475DDF001B5AC7 /* Debug */,
+				FB14F32D1B475DDF001B5AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB14F2FD1B475DDF001B5AC7 /* Project object */;
+}

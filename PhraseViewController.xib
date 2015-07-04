@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhraseViewController">
+            <connections>
+                <outlet property="phraseLabel" destination="1fW-AS-DXH" id="7gk-MV-17S"/>
+                <outlet property="view" destination="zou-Y3-CG9" id="668-nO-ewq"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="zou-Y3-CG9">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="raining_dogs.png" translatesAutoresizingMaskIntoConstraints="NO" id="MNz-Q2-dQD">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RANDOM PHRASE HERE!!!!!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fW-AS-DXH">
+                    <rect key="frame" x="0.0" y="290" width="600" height="21.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="1" green="0.99098592249999995" blue="0.98150865929999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sss-WC-aZl">
+                    <rect key="frame" x="106.5" y="532" width="387" height="48"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="Tap To Ask Another Question!">
+                        <color key="titleColor" red="0.5012330291" green="0.94555165819999998" blue="0.89638305370000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapButton:" destination="-1" eventType="touchDown" id="xNK-s9-Ya9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="MNz-Q2-dQD" secondAttribute="trailing" id="7Z3-ee-fHg"/>
+                <constraint firstAttribute="centerY" secondItem="1fW-AS-DXH" secondAttribute="centerY" id="8y1-Fi-JFq"/>
+                <constraint firstItem="MNz-Q2-dQD" firstAttribute="top" secondItem="zou-Y3-CG9" secondAttribute="top" id="Osn-eh-QWb"/>
+                <constraint firstItem="MNz-Q2-dQD" firstAttribute="leading" secondItem="zou-Y3-CG9" secondAttribute="leading" id="Uoo-p6-e1b"/>
+                <constraint firstItem="1fW-AS-DXH" firstAttribute="leading" secondItem="zou-Y3-CG9" secondAttribute="leading" id="ZRr-ET-9da"/>
+                <constraint firstAttribute="bottom" secondItem="Sss-WC-aZl" secondAttribute="bottom" constant="20" id="eXX-To-eIy"/>
+                <constraint firstAttribute="bottom" secondItem="MNz-Q2-dQD" secondAttribute="bottom" id="hSh-yn-msK"/>
+                <constraint firstAttribute="trailing" secondItem="1fW-AS-DXH" secondAttribute="trailing" id="rTw-gy-Th0"/>
+                <constraint firstAttribute="centerX" secondItem="Sss-WC-aZl" secondAttribute="centerX" id="tbh-st-KPo"/>
+            </constraints>
+            <point key="canvasLocation" x="311" y="246"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="raining_dogs.png" width="421" height="600"/>
+    </resources>
+</document>
